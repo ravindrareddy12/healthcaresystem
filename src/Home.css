@@ -1,0 +1,67 @@
+.HomeContainer{
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+    margin-top: -15px;
+    margin-left: -15px;
+    background-image: url('https://img.freepik.com/free-vector/doctor-stethoscope-object-blue-background_1017-14996.jpg?w=996&t=st=1690723892~exp=1690724492~hmac=44f1cb703ad29f408fc5e41cf754681c7e76ea25d8360a5eadc94248e729309e');
+    
+}
+.home-intro{
+    width: 100%;
+    height: 50%;
+    
+}
+.appointment-container{
+    width: 100%;
+    height: 50%;
+    
+}
+.right{
+    width: 50%;
+    height: 100%;
+   
+    
+}
+.right h1,p {
+    text-align: center;
+}
+
+.right-arrow{
+    margin-left: 4rem;
+}
+.left-arrow{
+    margin-left: 30rem;
+}
+.left{
+    float: right;
+    height: 100%;
+   
+}
+.left img{
+    width: 100%;
+    height: 100%;
+
+}
+.appointment-container h3{
+    color: red;
+}
+.appointment-container h1{
+    font-size: 50px;
+}
+
+/* Home.css */
+.book-appointment-button {
+    margin-left: 250px;
+    padding: 10px 20px;
+    background-color:#007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .book-appointment-button:hover{
+    color: white;
+    background-color: #20BC7E;
+  }
+  
