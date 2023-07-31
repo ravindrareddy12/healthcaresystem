@@ -23,16 +23,16 @@ const App = () => {
     <Router>
       <div className="app-container">
         <div className="sidebar">
-          <SidebarItem icon={AiOutlineHome} to="/home">Home</SidebarItem>
+          <SidebarItem icon={AiOutlineHome} to="/">Home</SidebarItem>
           <SidebarItem icon={BiSolidDashboard} to="/dashboard">Dashboard</SidebarItem>
-          <SidebarItem icon={FaTasks} to="/task">Today Task</SidebarItem>
+          <SidebarItem icon={FaTasks} to="/task"> Remainders </SidebarItem>
           <SidebarItem icon={AiFillAlert} to="/alerts">Alerts</SidebarItem>
           <SidebarItem icon={FcAbout} to="/doctors">Help with doctors</SidebarItem>
         </div>
         <div className="main-content">
           <Routes>
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/task" element={<Task />} />
             <Route path="/doctors" element={<Doctor />} />
             <Route path="/alerts" element={<Alerts />} />

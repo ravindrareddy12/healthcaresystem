@@ -1,0 +1,105 @@
+
+.dashboard-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dashboard-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.dashboard-item:last-child {
+  border-bottom: none;
+}
+
+.dashboard-item strong {
+  margin-right: 10px;
+}
+
+/* Additional Custom Styles */
+.dashboard-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff; /* Change background color to white */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Slightly adjust box shadow */
+}
+
+.dashboard-heading {
+  font-size: 24px;
+  color: #4285f4; /* Change heading color to a shade of blue */
+  text-transform: uppercase; /* Uppercase the heading text */
+  letter-spacing: 1px; /* Add a little letter spacing */
+}
+
+.dashboard-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px; /* Increase font size for item text */
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #fff; /* Add a white border to circles */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to circles */
+}
+
+/* Styling for each individual dashboard item */
+.dashboard-item:nth-child(1) .circle {
+  background-color: #FF5733; /* Change circle color for the first item */
+}
+
+.dashboard-item:nth-child(2) .circle {
+  background-color: #33FF57; /* Change circle color for the second item */
+}
+
+.dashboard-item:nth-child(3) .circle {
+  background-color: #5733FF; /* Change circle color for the third item */
+}
+
+.dashboard-item:nth-child(4) .circle {
+  background-color: #FF33E6; /* Change circle color for the fourth item */
+}
+
+.dashboard-item:nth-child(5) .circle {
+  background-color: #E6FF33; /* Change circle color for the fifth item */
+}
+
+.dashboard-item:nth-child(6) .circle {
+  background-color: #33E6FF; /* Change circle color for the sixth item */
+}
+
+.dashboard-item:nth-child(7) .circle {
+  background-color: #BEBEBE; /* Change circle color for the seventh item */
+}
+
+/* Hover effect for dashboard items */
+.dashboard-item:hover {
+  background-color: #f5f5f5; /* Change background color on hover */
+  cursor: pointer;
+}
+
+/* Active (selected) dashboard item */
+.dashboard-item.active {
+  background-color: #e0e0e0; /* Change background color for active item */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to active item */
+  transform: scale(1.02); /* Slightly scale up the active item */
+  transition: background-color 0.2s ease, transform 0.2s ease; /* Add smooth transitions */
+}
