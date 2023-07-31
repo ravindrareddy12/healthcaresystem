@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+Project Name: Healthcare System
+Description
+Healthcare System is a web application designed to facilitate health monitoring, medical consultation, and medication management. The system consists of several components that perform different functions, providing a comprehensive healthcare solution.
+### Deployed URL  : https://master.d1pne0cwuhhj8r.amplifyapp.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Components
+### 1. Home Component
+Description: The Home component displays the landing page of the healthcare system, providing users with an overview of the application's capabilities and features.
+Usage: Access the landing page to navigate to other components.
+### 2. Consultancy Form Component
+Description: The Consultancy Form component allows users to submit their medical queries and schedule consultations with healthcare professionals.
+Usage: Users can fill out the form to request medical advice or appointments.
+### 3. Dashboard Component
+Description: The Dashboard component enables users to monitor various health parameters, including blood pressure (BP), body mass index (BMI), body fat percentage, protein mass, and other relevant metrics.
+Usage: Users can enter their health data and track their progress over time.
+#### 4. Reminder Component
+Description: The Reminder component assists users in managing their medication schedule. It provides reminders for taking medicines at specified times.
+Usage: Users can add, modify, or delete medication reminders.
+#### 5. Alerts Component
+Description: The Alerts component displays important health-related alerts or notifications, such as medication reminders, upcoming appointments, or critical health updates.
+Usage: Users can view alerts and take appropriate actions.
+### 6. HelpwithComponent
+Description: The HelpwithComponent provides users with details about healthcare professionals, such as doctors' profiles and contact information.
+Usage: Users can find relevant healthcare professionals and get in touch if needed.
