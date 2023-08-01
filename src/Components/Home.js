@@ -13,11 +13,11 @@ const Dashboard = () => {
         </div>
         <div className='right'>
           <strong className='right-arrow'><AiFillCaretRight style={{ marginTop: 30 }} /></strong>
-          <h1>
+          <h1 className='heading'>
             Complete Healthcare <br></br>
             Solutions for Everyone
           </h1>
-          <p>
+          <p className='para'>
             We're always available for our Patients with emergency problems.<br></br>
             You can easily reach us 24/7. We focus on the highest quality.
           </p>
@@ -25,8 +25,8 @@ const Dashboard = () => {
         </div>
       </div>
       <div className='appointment-container'>
-      <h3 >Need consultation?</h3>
-        <h1>Book an appointment</h1>
+      <h3 className='consult'>Need consultation?</h3>
+        <h1 className='app'>Book an appointment</h1>
         <form className='appointment-form'>
           
           <label htmlFor='name' style={{marginLeft: 50}} >Name:</label>

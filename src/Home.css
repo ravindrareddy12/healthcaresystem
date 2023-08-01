@@ -7,6 +7,28 @@
     background-image: url('https://img.freepik.com/free-vector/doctor-stethoscope-object-blue-background_1017-14996.jpg?w=996&t=st=1690723892~exp=1690724492~hmac=44f1cb703ad29f408fc5e41cf754681c7e76ea25d8360a5eadc94248e729309e');
     
 }
+.left img{
+    border-radius: 15px 10px 10px 5px;
+   
+}
+.heading{
+    text-shadow: 2px 2px 2px pink;
+    margin-left: -55px;
+}
+.para{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-left: -15px;
+}
+.consult{
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #007bff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.app{
+    text-shadow: 2px 2px 5px red;
+}
 .home-intro{
     width: 100%;
     height: 50%;

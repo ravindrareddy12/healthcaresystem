@@ -17,7 +17,7 @@ const Alerts = () => {
       <h1 style={styles.header}>Medicine Alerts</h1>
       {/* Displaying the sample medicine alerts data */}
       {medicineAlertsData.map((alert) => (
-        <div key={alert.id} style={styles.alert}>
+        <div key={alert.id} style={styles.alert}>   
           <div style={styles.medicineInfo}>
             <div style={styles.medicineName}>{alert.medicineName}</div>
             <div style={styles.dosage}>{alert.dosage}</div>

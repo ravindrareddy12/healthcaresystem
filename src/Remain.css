@@ -14,6 +14,7 @@
   font-weight: bold;
   margin-bottom: 30px;
   color: #333;
+  text-shadow: 2px 2px 2px pink;
 }
 
 .medicine-reminders {
@@ -21,7 +22,7 @@
   max-width: 600px;
   padding: 20px;
   background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(231, 23, 23, 0.5);
   border-radius: 12px;
 }
 
@@ -45,6 +46,7 @@
 .medicine-name {
   font-size: 20px;
   font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(199, 230, 234);
   color: #007bff; /* Blue color for medicine name */
 }
 

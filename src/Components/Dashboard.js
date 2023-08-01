@@ -13,7 +13,7 @@ const Dashboard = () => {
 
   return (
     <div className='container'>
-      <div className="dashboard-container" style={{marginLeft: '250px'}}>
+      <div className="dashboard-container" style={{ marginLeft: '250px', boxShadow: '40px 20px 60px rgba(0, 0, 0, 0.3)' }}>
       <h1 className="dashboard-heading">Better Peformance</h1>
       <div className="dashboard-item">
         <div className="circle" style={{ backgroundColor: '#FF5733' }}></div>
